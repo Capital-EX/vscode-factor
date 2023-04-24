@@ -2,22 +2,22 @@
     "name": "factor",
     "displayName": "Factor",
     "description": "Factor programming language",
-    "version": "0.3.0",
-    "publisher": "dexterhaslem",
+    "version": "0.4.0",
+    "publisher": "factor",
     "icon": "Factor_256x256.png",
-    "homepage": "https://github.com/DexterHaslem/vscode-factor",
+    "homepage": "https://github.com/factor/vscode-factor",
     "repository": {
         "type": "git",
-        "url": "https://github.com/DexterHaslem/vscode-factor.git"
+        "url": "https://github.com/factor/vscode-factor.git"
     },
     "bugs": {
-        "url": "https://github.com/DexterHaslem/vscode-factor/issues"
+        "url": "https://github.com/factor/vscode-factor/issues"
     },
     "engines": {
-        "vscode": "^1.5.0"
+        "vscode": "^1.77.3"
     },
     "categories": [
-        "Languages",
+        "Programming Languages",
         "Snippets"
     ],
     "contributes": {
