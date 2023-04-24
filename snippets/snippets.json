@@ -1,19 +1,19 @@
 {
 	"bi": {
 		"prefix": "bi",
-		"body": "\n   [ $1 ]\n   [ $2 ] bi",
+		"body": "\n\t[ $1 ]\n\t[ $2 ] bi",
 		"description": "bi",
 		"scope": "source.factor"
 	},
 	"cleave": {
 		"prefix": "cleave",
-		"body": "{\n   [ $1 ]\n   [ $2 ]\n   [ $3 ]\n   [ $4 ]\n} cleave",
+		"body": "{\n\t[ $1 ]\n\t[ $2 ]\n\t[ $3 ]\n\t[ $4 ]\n} cleave",
 		"description": "cleave",
 		"scope": "source.factor"
 	},
 	"cond": {
 		"prefix": "cond",
-		"body": "{\n  { [ $1 ] [ $2 ] }\n  { [ $3 ] [ $4 ] }\n$5} cond ",
+		"body": "{\n\t{ [ $1 ] [ $2 ] }\n\t{ [ $3 ] [ $4 ] }\n$5} cond ",
 		"description": "cond",
 		"scope": "source.factor"
 	},
@@ -25,7 +25,7 @@
 	},
 	"if": {
 		"prefix": "if",
-		"body": "\n   [ $1 ]\n   [ $2 ] if",
+		"body": "\n\t[ $1 ]\n\t[ $2 ] if",
 		"description": "if",
 		"scope": "source.factor"
 	},
@@ -43,13 +43,13 @@
 	},
 	"spread": {
 		"prefix": "spread",
-		"body": "{\n   [ $1 ]\n   [ $2 ]\n   [ $3 ]\n   [ $4 ]\n} spread",
+		"body": "{\n\t[ $1 ]\n\t[ $2 ]\n\t[ $3 ]\n\t[ $4 ]\n} spread",
 		"description": "spread",
 		"scope": "source.factor"
 	},
 	"tri": {
 		"prefix": "tri",
-		"body": "\n   [ $1 ]\n   [ $2 ]\n   [ $3 ] tri",
+		"body": "\n\t[ $1 ]\n\t[ $2 ]\n\t[ $3 ] tri",
 		"description": "tri",
 		"scope": "source.factor"
 	},
